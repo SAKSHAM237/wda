@@ -1,0 +1,38 @@
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center; /* Centers the whole container */
+  margin-top: 40px;
+}
+
+.app-container {
+  
+  /* border: 1.5px solid black; */
+  padding: 20px;
+  width: 320px;
+  text-align: center;
+}
+
+.app-container h2 {
+  margin-top: 0;
+  font-size: 22px;
+}
+
+.student-card {
+  background: white;
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.student-card h3 {
+  color: #003366;
+  margin: 0 0 10px 0;
+}
+
+.student-card p {
+  font-size: 14px;
+  margin: 5px 0;
+}
